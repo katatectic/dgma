@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
    
 </head>
-<h1>Это редактирование!!!</h1>
+<h1>Это совершенно новая вьюха!!!</h1>
 {{--Эта вьюшка выводит студентов из базы. Ссылка следующая http://localhost/dgma/public/students--}}
     <div id="articles">        
         <h3>Здравствуйте, Вы видите студентов</h3>
