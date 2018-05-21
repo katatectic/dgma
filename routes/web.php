@@ -40,7 +40,7 @@ Route::get('exp', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home/{id}', 'HomeController@index')->name('home');
 
 Route::post('CheckAge', function () {
      return route('hello');
