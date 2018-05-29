@@ -63,3 +63,10 @@ Route::post('student_add','StudentsController@addStudent')->name('student_add');
 Route::get('stud_edit/{id}','StudentsController@editStudent')->name('stud_edit');
 
 Route::post('student_edit/{id}','StudentsController@updateStudent')->name('student_edit');
+
+Route::get('cars','CarsController@getAllCars')->name('cars');
+
+Route::get('deletecars/{id}','CarsController@deleteCars')->name('deletecars');
+
+Route::get('phones','PhoneController@getAllPhones')->name('phones');
+Route::get('userphones/{id}','PhoneController@userPhones')->name('userphones');

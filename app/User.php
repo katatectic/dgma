@@ -17,6 +17,11 @@ class User extends Authenticatable
         return DB::table($this->table_name)->where('id', $id)->first();
     }
 
+    public function phones()
+    {
+        return $this->hasMany('App\Phone'); // один пользователь много статей
+    }
+
     /**
      * The attributes that are mass assignable.
      *

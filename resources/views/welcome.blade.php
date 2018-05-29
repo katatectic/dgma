@@ -85,7 +85,9 @@
                 <form>
                     <input type="text" name="age">                
                 </form>
-                <div><a href="{{route('hello')}}">Перейти на Хэллоу</a></div>                
+                <div><a href="{{route('hello')}}">Перейти на Хэллоу</a></div>
+                <div><a href="{{route('phones')}}">Перейти на телефоны</a></div>
+
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
